@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 300px;
+  height: 33px;
+}
+
+.main-header {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.main-menu {
+  display: flex;
+  list-style: none;
+  color: #747474;
+  font-weight: 400;
+}
+
+.main-menu li {
+  padding: 20px;
+
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+}
+
+.lead-section h1 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -.3px;
+}
+
+.lead-section p {
+  line-height: 2;
+  font-weight: 400;
+  color: #747474;
+}
+
+.parag {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 300px;
+    padding: 20px;
+    color: white;
+    width: 70%;
+    margin: auto;
+    }
+
+  .card1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .card2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .card3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .cards h1{
+    color: white;
+  }
+  .cards p{
+    font-size: 20px;
+  }
+  
+  select{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+  }
+
+  option{
+    color: grey;
+  }
+
+  .lead-section{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+
+  .section3 {
+    background-color:#dff8f6 ;
+    height: 600px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  .plateform {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+  }
+  .stats h1 {
+    color: #00b39b;
+    font-weight: 100;
+    width: 70%;
+  }
+  .stats p {
+    color: gray;
+    width: 70%;
+  }
+  .section3 img {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+  }
+
+  .cartes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+  }
+  .carte {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .carte h3 {
+    color: #00b39b;
+    font-weight: 100;
+  }
+  .carte p {
+    color: gray;
+  }
+  .translate {
+    transform: translateY(20px);
+  }
+  .carte img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .section-logos {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+  }
+  .brand-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 0;
+  }
+  .brand-logos a {
+    display: inline-block;
+    padding: 5px 0;
+    text-decoration: none;
+    width: 70px;
+    height: 50px;
+  }
+  .brand-logo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+@media (max-width:500px) {
+  .parag {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .lead-section h1 {
+    text-align: center;
+  }
+  .lead-section{
+    width: 100%;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    width: 100%;
+    }
+    .plateform {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-gap: 20px;
+      width: 100%;
+      margin: auto;
+      padding: 20px;
+    }
+    .stats p {
+      width: 100%;
+      text-align: center;
+    }
+    .stats h1 {
+      width: 100%;
+      text-align: center;
+    }
+    .cartes {
+      z-index: 10;
+    }
+}
