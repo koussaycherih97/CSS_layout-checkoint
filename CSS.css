@@ -213,6 +213,51 @@ h1 {
     flex-wrap: wrap;
   }
 
+  .offices {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .offices p {
+    text-align: center;
+    color:#808b99 ;
+    line-height: 1.7142857143 ;
+  }
+  .slides {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 70% ;
+    margin: auto;
+    padding: 20px;
+    }
+  .slides img {
+    height: 200px;
+    margin: 0 ;
+  }
+
+  .slide {
+    padding: 20px ;
+  }
+
+  .footer {
+    
+    margin: auto;
+    text-align: center;
+  }
+  .btn {
+    background: #3d83df;
+
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  .footer h1 {
+    color: #333;
+  }
+
 @media (max-width:500px) {
   .parag {
     display: grid;
